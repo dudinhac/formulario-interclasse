@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário dos Jogos Internos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img src="https://portal.ifrn.edu.br/static/images/logo.svg?da3b22901768" alt="logo do IF">
+    <h2>Interclasse</h2>
+    <nav>
+        <a href="dev.html">Desenvolvedores</a>
+        <a href="index.html">Inicio</a>
+    </nav>
+    <form action="server.php" method="post">
+       
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+
+       
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" id="nascimento" name="nascimento" required><br><br>
+
+        
+        
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" placeholder="Digite sua idade" required><br><br>
+        
+        <label for="numero">Número:</label>
+        <input id="numero" type="tel" name="numero" placeholder="(xx) xxxxx-xxxx" ><br><br>
+
+        <label for="ident">Matricula:</label>
+        <input type="ident" id="ident" name="ident" placeholder="Digite sua Matricula" required><br><br>
+
+
+       
+        <label>Sexo:</label><br>
+
+            <input type="radio" id="female" name="gender">
+            <label for="female">Feminino</label>
+
+            <input type="radio" id="male" name="gender">
+            <label for="male">Masculino</label><br>
+
+            <input type="radio" id="others" name="gender">
+            <label for="others">Outros</label><br>
+
+            <input type="radio" id="none" name="gender">
+            <label for="none">Prefiro não dizer</label><br>
+            <br>
+
+
+        <label for="cor">Cor do time:</label>
+        <input type="color" id="cor" name="cor"><br><br>
+
+        <label for="logo">Logo do time:</label>
+        <input type="file" id="logo" name="logo"><br><br>
+
+        <label for="turma">Turma Em Que Você Estuda:</label>
+        <select id="turma" name="turma">
+            <option value="Info">Info</option>
+            <option value="Mec">Mec</option>
+            <option value="Refri">Refri</option>
+            <option value="MSI">MSI</option>
+            <option value="Licenciatura">Licenciatura</option>
+        </select><br><br>
+
+        <label for="notificacao">Notificarme no dia do evento</label>
+        <input id="notificacao" type="checkbox" name="notificacao"><br><br>
+
+        <input type="submit" value="Enviar"><br><br>
+        <input type="reset" value="Limpar">
+
+        
+        
+    </form>
+
+    <h2>IFRN - Cumpus Santa Cruz</h2>  <h2>Prof.Marcelo Figueiredo Barbosa Júnior</h2> 
+    <h3>Nome Dos Desenvolvedores:</h3>
+    <p>Maria Eduarda Rodrigues de Carvalho</p>
+    <p>Micael da Silva Soares</p>
+    <p>Kalyne Maryeli Brilhante Carlos</p>
+</body>
+</html>
